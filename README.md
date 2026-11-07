@@ -245,10 +245,3 @@ Hackathon/
 ```
 
 ---
-
-## 👥 Tim & Lisensi
-
-- **Pengembang:** Muhammad Rifat ([@muhammadrifatba](https://github.com/muhammadrifatba))
-- **Organisasi:** PT Nusantara Alat Berat
-- **Platform:** Tencent WorkBuddy Hackathon
-- **Lisensi:** MIT License (2026)
