@@ -1,0 +1,70 @@
+# =============================================================================
+# 1. Environment Variables & Secrets (Keep *.example tracked)
+# =============================================================================
+.env
+.env.*
+!.env.example
+!.env.local.example
+backend/.env
+frontend/.env.local
+
+# =============================================================================
+# 2. Python / FastAPI / LangGraph Backend
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+backend/.venv/
+.pytest_cache/
+backend/.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime SQLite Databases & WAL files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+backend/storage_zones/
+
+# =============================================================================
+# 3. Node.js / Next.js Frontend
+# =============================================================================
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+frontend/out/
+build/
+dist/
+*.tsbuildinfo
+frontend/tsconfig.tsbuildinfo
+next-env.d.ts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# =============================================================================
+# 4. OS, IDE & Temporary Scratch Files
+# =============================================================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.log
+gemini-code-*.md

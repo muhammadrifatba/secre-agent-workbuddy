@@ -1,0 +1,33 @@
+[project]
+name = "sekre-v3-backend"
+version = "0.1.0"
+description = "SEKRE v3 - Safe, High-Context Indonesian Office Secretary Agent"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.0",
+    "pydantic>=2.9.0",
+    "pydantic-settings>=2.5.0",
+    "pyyaml>=6.0.2",
+    "langgraph>=0.2.35",
+    "langgraph-checkpoint>=2.0.0",
+    "langchain-core>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "langchain-google-genai>=2.0.0",
+    "httpx>=0.27.0",
+    "tzdata>=2024.1",
+]
+
+[project.optional-dependencies]
+mcp = [
+    "fastmcp>=0.2.0",
+]
+dev = [
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.24.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+asyncio_mode = "auto"

@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "sekre-office-agent": {
+      "command": "d:\\Project\\Hackathon\\backend\\.venv\\Scripts\\python.exe",
+      "args": [
+        "-m",
+        "app.mcp_server"
+      ],
+      "cwd": "d:\\Project\\Hackathon\\backend",
+      "env": {
+        "PYTHONPATH": "d:\\Project\\Hackathon\\backend",
+        "BACKEND_URL": "http://127.0.0.1:8000"
+      }
+    }
+  }
+}

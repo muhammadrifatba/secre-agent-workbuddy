@@ -1,0 +1,210 @@
+{
+  "organizations": {
+    "org_bkt": {
+      "org_id": "org_bkt",
+      "name": "PT Borneo Karya Tambang",
+      "aliases": ["PT BKT", "Borneo Karya Tambang", "BKT"],
+      "city": "Balikpapan",
+      "timezone": "Asia/Makassar",
+      "industry": "Coal & Nickel Mining Contractor",
+      "tier": "Key Account",
+      "commitments": [
+        {
+          "commitment_id": "cmt_bkt_001",
+          "org_id": "org_bkt",
+          "direction": "ours_to_customer",
+          "status": "open",
+          "due_date": "2026-10-20",
+          "description": "Kirim brosur spesifikasi lengkap & simulasi TCO unit Excavator PC200-8M0",
+          "source_quote": "Tim kami janji kirimkan brosur spesifikasi PC200 dan hitungan BBM minggu ini."
+        }
+      ],
+      "relationship_signals": [
+        {
+          "signal_id": "sig_bkt_01",
+          "type": "open_complaint",
+          "severity": "high",
+          "recorded_at": "2026-10-18",
+          "summary": "Komplain keterlambatan pengiriman spare part hydraulic pump unit HD785 di site Samarinda selama 5 hari.",
+          "source_quote": "Kami kecewa pengiriman hydraulic pump mundur 5 hari tanpa kabar proaktif dari tim part."
+        },
+        {
+          "signal_id": "sig_bkt_02",
+          "type": "delayed_response",
+          "severity": "medium",
+          "recorded_at": "2026-10-21",
+          "summary": "Menunggu konfirmasi jadwal kunjungan teknisi senior ke Balikpapan.",
+          "source_quote": "Belum ada kepastian tanggal kedatangan mekanik ke site kami."
+        }
+      ],
+      "company_news": [
+        {
+          "news_id": "news_bkt_01",
+          "published_at": "2026-10-15",
+          "headline": "PT Borneo Karya Tambang Menangkan Kontrak Pit Baru di Kutai Kartanegara",
+          "summary": "Ekspansi operasional pit baru membutuhkan tambahan 12 unit excavator kelas 20 ton pada Q4 2026."
+        }
+      ],
+      "interaction_facts": [
+        "Prefer komunikasi ringkas via WhatsApp sebelum mengirim penawaran resmi via Email.",
+        "Fokus utama manajemen tahun ini adalah ketersediaan spare part (availability guarantee)."
+      ],
+      "sensitive_pdp_blocked": [
+        "Info pribadi agama/kesehatan keluarga direksi (DIBLOKIR OLEH UU PDP BR-17)"
+      ]
+    },
+    "org_mahakam": {
+      "org_id": "org_mahakam",
+      "name": "PT Mahakam Coal Energi",
+      "aliases": ["PT MCE", "Mahakam Coal"],
+      "city": "Balikpapan",
+      "timezone": "Asia/Makassar",
+      "industry": "Coal Mining",
+      "tier": "Enterprise",
+      "commitments": [
+        {
+          "commitment_id": "cmt_mce_001",
+          "org_id": "org_mahakam",
+          "direction": "theirs_to_us",
+          "status": "open",
+          "due_date": "2026-10-28",
+          "description": "Konfirmasi PO perpanjangan kontrak maintenance Full Maintenance Contract (FMC) kuartal IV",
+          "source_quote": "Pak Budi Santoso akan kirim draft PO sebelum akhir bulan."
+        }
+      ],
+      "relationship_signals": [
+        {
+          "signal_id": "sig_mce_01",
+          "type": "open_complaint",
+          "severity": "high",
+          "recorded_at": "2026-10-22",
+          "summary": "Komplain 2 unit Bulldozer D85ESS-2 low power akibat masalah common rail fuel injector di site Bengalon serta klaim penggantian komponen yang belum di-acc.",
+          "source_quote": "2 unit Bulldozer D85ESS-2 tiba-tiba low power gara-gara fuel injector bermasalah dan klaim penggantian belum di-acc."
+        }
+      ],
+      "company_news": [
+        {
+          "news_id": "news_mce_01",
+          "published_at": "2026-10-10",
+          "headline": "PT Mahakam Coal Energi Raih Penghargaan Proper Hijau ESDM",
+          "summary": "Fokus efisiensi bahan bakar armada alat berat."
+        }
+      ],
+      "interaction_facts": [
+        "Rapat bulanan selalu diadakan hari Jumat sore WITA atau Selasa pagi."
+      ]
+    },
+    "org_konawe": {
+      "org_id": "org_konawe",
+      "name": "PT Konawe Nikel Perkasa",
+      "aliases": ["PT KNP", "Konawe Nikel", "KNP"],
+      "city": "Makassar",
+      "timezone": "Asia/Makassar",
+      "industry": "Nickel Ore Mining & Smelter Hauling",
+      "tier": "Key Account",
+      "commitments": [
+        {
+          "commitment_id": "cmt_knp_001",
+          "org_id": "org_konawe",
+          "direction": "ours_to_customer",
+          "status": "open",
+          "due_date": "2026-10-24",
+          "description": "Pelaksanaan Preventive Maintenance (PM) 1.000 HM untuk 3 unit armada Excavator",
+          "source_quote": "Tim Mobile Service cabang akan segera mengeksekusi jadwal PM 1000 HM untuk 3 unit di site."
+        }
+      ],
+      "relationship_signals": [
+        {
+          "signal_id": "sig_knp_01",
+          "type": "open_complaint",
+          "severity": "high",
+          "recorded_at": "2026-10-21",
+          "summary": "Komplain keausan dini komponen undercarriage & track link Excavator PC400LC-8 pada 1.400 HM (klaim garansi 2.000 HM).",
+          "source_quote": "Unit Excavator PC400LC-8 undercarriage sama track link-nya udah aus parah padahal baru jalan 1.400 HM."
+        }
+      ],
+      "company_news": [
+        {
+          "news_id": "news_knp_01",
+          "published_at": "2026-10-18",
+          "headline": "PT Konawe Nikel Perkasa Gandakan Target Pengapalan Bijih Nikel Q4",
+          "summary": "Membutuhkan tambahan armada Excavator kelas 30 ton (PC300-8M0) dengan Hydraulic Breaker."
+        }
+      ],
+      "interaction_facts": [
+        "Plant Manager (Pak Rendi Pratama) lebih responsif dihubungi melalui WhatsApp."
+      ]
+    },
+    "org_kpk": {
+      "org_id": "org_kpk",
+      "name": "PT Kalimantan Prima Konstruksi",
+      "aliases": ["PT KPK", "Kalimantan Prima Konstruksi", "KPK"],
+      "city": "Samarinda",
+      "timezone": "Asia/Makassar",
+      "industry": "Toll Road & Mining Hauling Road Contractor",
+      "tier": "Enterprise",
+      "commitments": [
+        {
+          "commitment_id": "cmt_kpk_001",
+          "org_id": "org_kpk",
+          "direction": "ours_to_customer",
+          "status": "open",
+          "due_date": "2026-10-25",
+          "description": "Kirim katalog teknis & jadwal pelaksanaan Training Operator alat berat di Samarinda",
+          "source_quote": "Sesuai janji saat pameran, kami akan kirimkan jadwal training operator untuk tim workshop Samarinda."
+        }
+      ],
+      "relationship_signals": [
+        {
+          "signal_id": "sig_kpk_01",
+          "type": "open_complaint",
+          "severity": "medium",
+          "recorded_at": "2026-10-20",
+          "summary": "Komplain overheat radiator core Wheel Loader WA380-6 di workshop Samarinda dan lambatnya respon call center darurat (4 jam).",
+          "source_quote": "Wheel Loader WA380-6 sempat overheat karena radiator core bocor halus dan respon call center darurat sampai 4 jam."
+        }
+      ],
+      "company_news": [
+        {
+          "news_id": "news_kpk_01",
+          "published_at": "2026-10-16",
+          "headline": "PT Kalimantan Prima Konstruksi Mulai Proyek Hauling Road Baru di Kaltim",
+          "summary": "Pengadaan tambahan unit Wheel Loader WA380-6 dan Vibratory Roller Compactor."
+        }
+      ],
+      "interaction_facts": [
+        "Ringkasan penawaran dan tindak lanjut servis diminta dikirim via WhatsApp untuk diteruskan ke Direktur Keuangan."
+      ]
+    },
+    "org_internal": {
+      "org_id": "org_internal",
+      "name": "PT Nusantara Alat Berat (Internal)",
+      "aliases": ["Internal", "NAB"],
+      "city": "Jakarta",
+      "timezone": "Asia/Jakarta",
+      "industry": "Heavy Equipment Distributor",
+      "tier": "Internal",
+      "commitments": [],
+      "relationship_signals": [
+        {
+          "signal_id": "sig_int_99",
+          "type": "internal_confidential",
+          "severity": "low",
+          "recorded_at": "2026-10-19",
+          "summary": "Evaluasi KPI kuartalan internal (TIDAK BOLEH BOCOR KE PEER REMINDER).",
+          "source_quote": "Internal review."
+        }
+      ],
+      "company_news": [
+        {
+          "news_id": "news_int_01",
+          "published_at": "2026-10-01",
+          "headline": "Townhall Q4 PT Nusantara Alat Berat",
+          "summary": "Internal announcement."
+        }
+      ],
+      "interaction_facts": []
+    }
+  }
+}
+

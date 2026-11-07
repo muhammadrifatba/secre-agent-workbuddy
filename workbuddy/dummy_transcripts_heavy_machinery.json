@@ -1,0 +1,308 @@
+{
+  "industry": "Heavy Machinery Selling & After-Sales Service (PT Nusantara Alat Berat)",
+  "description": "Data dummy transkrip percakapan suara (voice note WA, rekaman telepon site tambang, dan rapat lapangan) untuk ekstraksi Komplain vs Demand, Mapping Follow-Up, dan Perintah Kirim WA di Tencent WorkBuddy.",
+  "transcripts": [
+    {
+      "transcript_id": "tr_01_bkt_samarinda",
+      "title": "Telepon Site Samarinda — Pak Hendra (PT Borneo Karya Tambang)",
+      "audio_source": "Rekaman Telepon Pelanggan (02:14 menit)",
+      "recorded_at": "2026-10-23T09:15:00+08:00",
+      "speaker_customer": {
+        "name": "Pak Hendra",
+        "role": "Direktur Operasional",
+        "org_id": "org_bkt",
+        "org_name": "PT Borneo Karya Tambang",
+        "city": "Balikpapan",
+        "timezone": "Asia/Makassar",
+        "phone": "+628123456789",
+        "pic_intake_sentence": "Pak Hendra Direktur PT BKT di Balikpapan nomor 08123456789 prefer WA"
+      },
+      "units_mentioned": ["Dump Truck HD785-7", "Excavator PC200-8M0"],
+      "raw_spoken_transcript": "[Suara deru mesin tambang di latar belakang]\n\"Halo pagi Pak Rifat, Pak Andi... Ini saya Hendra dari PT Borneo Karya Tambang di Balikpapan. Gini Pak, saya telpon langsung karena orang lapangan di site Samarinda udah teriak-teriak nih. Pertama, itu unit Dump Truck kita yang HD785-7 udah lima hari nongkrong breakdown di Pit 3 gara-gara spare part hydraulic pump-nya belum nyampe-nyampe ke site, mana gak ada kabar proaktif dari tim part Bapak! Kedua, mekanik senior yang dijanjikan mau turun ngecek tekanan hidrolik ke Balikpapan juga sampai pagi ini belum ada kepastian jadwalnya. Tolong ini diberesin dulu Pak, produksi batubara kita ketahan.\n\nTerus satu lagi Pak... karena bulan depan kita baru menang kontrak pit baru di Kutai Kartanegara, kita ada kebutuhan mendesak mau nambah 4 unit Excavator PC200-8M0. Minggu lalu tim Bapak janji mau kirimin brosur spesifikasi lengkap sama simulasi hitungan TCO dan konsumsi BBM PC200, tapi belum masuk ke WA saya. Tolong kirimkan update solusi komplain part HD785 tadi sekalian penawaran resmi 4 unit PC200-8M0 dan brosur TCO-nya ke WhatsApp saya ya Pak di 08123456789. Saya tunggu hari ini ya Pak, makasih.\"",
+      "complaints": [
+        {
+          "complaint_id": "CMP-BKT-01",
+          "category": "Keterlambatan Sparepart (Sparepart Delay & Breakdown)",
+          "unit_model": "Dump Truck HD785-7",
+          "location": "Site Samarinda (Pit 3)",
+          "severity": "HIGH",
+          "summary": "Pengiriman spare part hydraulic pump unit HD785-7 terlambat 5 hari sehingga unit breakdown di Pit 3 tanpa update proaktif.",
+          "verbatim_quote": "unit Dump Truck kita yang HD785-7 udah lima hari nongkrong breakdown di Pit 3 gara-gara spare part hydraulic pump-nya belum nyampe-nyampe ke site",
+          "mapped_follow_up": {
+            "responsible_division": "Parts & Logistics Division (Depo Balikpapan)",
+            "action_plan": "Eskalasi pengiriman ekspres (air freight/direct charter) hydraulic pump HD785-7 ke Site Samarinda hari ini & kirimkan nomor AWB/tracking disertai permohonan maaf resmi.",
+            "target_sla": "Maksimal 1x4 Jam (Same-Day Dispatch)",
+            "wa_response_clause": "Memohon maaf atas keterlambatan pengiriman spare part hydraulic pump unit HD785-7 di site Samarinda serta mengonfirmasi pengiriman prioritas hari ini."
+          }
+        },
+        {
+          "complaint_id": "CMP-BKT-02",
+          "category": "Kepastian Jadwal Teknisi (Field Service Dispatch)",
+          "unit_model": "Dump Truck HD785-7",
+          "location": "Balikpapan / Samarinda",
+          "severity": "MEDIUM",
+          "summary": "Belum ada kepastian jadwal kedatangan mekanik senior ke site Balikpapan/Samarinda untuk pengecekan sistem hidrolik.",
+          "verbatim_quote": "mekanik senior yang dijanjikan mau turun ngecek tekanan hidrolik ke Balikpapan juga sampai pagi ini belum ada kepastian jadwalnya",
+          "mapped_follow_up": {
+            "responsible_division": "Field Service & Technical Support Kalimantan",
+            "action_plan": "Tetapkan surat tugas Mekanik Senior (Lead Mechanic) untuk tiba di site besok pagi pukul 08:00 WITA guna instalasi & kalibrasi pompa hidrolik.",
+            "target_sla": "H+1 Pukul 08:00 WITA",
+            "wa_response_clause": "Memastikan jadwal kedatangan Mekanik Senior ke site besok pagi untuk pengawalan pemasangan hingga unit kembali beroperasi (ready for use)."
+          }
+        }
+      ],
+      "demands": [
+        {
+          "demand_id": "DMD-BKT-01",
+          "category": "Pemenuhan Janji Brosur & Simulasi TCO (Pre-Sales Commitment)",
+          "unit_model": "Excavator PC200-8M0",
+          "quantity": "Dokumen Teknis & TCO",
+          "urgency": "HIGH",
+          "summary": "Permintaan pengiriman brosur spesifikasi lengkap & simulasi TCO (hitungan konsumsi BBM) Excavator PC200-8M0 yang dijanjikan minggu lalu.",
+          "verbatim_quote": "janji mau kirimin brosur spesifikasi lengkap sama simulasi hitungan TCO dan konsumsi BBM PC200, tapi belum masuk ke WA saya",
+          "mapped_follow_up": {
+            "responsible_division": "Product Application & Engineering Team",
+            "action_plan": "Lampirkan dokumen PDF Brosur Spesifikasi PC200-8M0 & Tabel Simulasi Efisiensi BBM/TCO untuk medan tambang Kutai Kartanegara.",
+            "deliverable": "PDF Brosur PC200-8M0 + Kalkulasi TCO/Fuel Consumption",
+            "wa_response_clause": "Menyerahkan brosur spesifikasi lengkap dan simulasi TCO unit Excavator PC200-8M0 sesuai komitmen kami sebelumnya."
+          }
+        },
+        {
+          "demand_id": "DMD-BKT-02",
+          "category": "Pembelian Unit Baru (New Equipment Sales Quotation)",
+          "unit_model": "Excavator PC200-8M0",
+          "quantity": "4 Unit",
+          "urgency": "HIGH",
+          "summary": "Permintaan penawaran resmi (quotation) pembelian 4 unit Excavator PC200-8M0 untuk ekspansi pit baru di Kutai Kartanegara.",
+          "verbatim_quote": "kita ada kebutuhan mendesak mau nambah 4 unit Excavator PC200-8M0... sekalian penawaran resmi 4 unit PC200-8M0",
+          "mapped_follow_up": {
+            "responsible_division": "Commercial & Heavy Equipment Sales",
+            "action_plan": "Susun Quotation paket 4 unit Excavator PC200-8M0 (ready stock Balikpapan) lengkap dengan jaminan ketersediaan spare part (Availability Guarantee).",
+            "deliverable": "Quotation Resmi 4 Unit PC200-8M0 + Paket Garansi Sparepart",
+            "wa_response_clause": "Menyampaikan penawaran 4 unit Excavator PC200-8M0 untuk proyek pit baru PT Borneo Karya Tambang di Kutai Kartanegara."
+          }
+        }
+      ],
+      "generated_wa_command": "WA Pak Hendra dari PT Borneo Karya Tambang, tindak lanjuti komplain hydraulic pump HD785 dan brosur, serta tawarin PC200"
+    },
+    {
+      "transcript_id": "tr_02_mahakam_bengalon",
+      "title": "Voice Note WhatsApp — Pak Budi Santoso (PT Mahakam Coal Energi)",
+      "audio_source": "Voice Note WhatsApp Pelanggan (01:45 menit)",
+      "recorded_at": "2026-10-23T10:05:00+08:00",
+      "speaker_customer": {
+        "contact_id": "c_budi_s",
+        "name": "Pak Budi Santoso",
+        "role": "VP Operations",
+        "org_id": "org_mahakam",
+        "org_name": "PT Mahakam Coal Energi",
+        "city": "Balikpapan",
+        "timezone": "Asia/Makassar",
+        "phone": "+6281255008899"
+      },
+      "units_mentioned": ["Bulldozer D85ESS-2", "Motor Grader GD535-5"],
+      "raw_spoken_transcript": "[Suara rekaman Voice Note di dalam kabin mobil site]\n\"Halo Pak Rifat, selamat pagi menjelang siang... Ini Budi Santoso dari PT Mahakam Coal Energi di Balikpapan. Pak, saya kirim voice note aja ya biar cepat. Jadi gini, tadi pagi kepala tambang saya di site Bengalon lapor, ada 2 unit Bulldozer D85ESS-2 kita yang tiba-tiba low power gara-gara common rail fuel injector-nya bermasalah dan filter solarnya mampet, padahal baru diservis dua minggu lalu. Tim site kita agak kecewa karena klaim penggantian injector-nya belum di-acc sama cabang sejak kemarin.\n\nNah yang kedua Pak, terlepas dari kendala itu, untuk kuartal IV ini kita mau finalisasi PO perpanjangan kontrak Full Maintenance Contract (FMC) armada kita. Plus, kita lagi butuh tambahan 2 unit Motor Grader GD535-5 buat merapikan jalan hauling yang habis kena hujan deras minggu ini. Tolong dibantu bereskan komplain injector D85ESS-2 tadi dulu ya Pak, terus kabari saya via WA untuk penawaran 2 unit Motor Grader GD535-5 sama jadwal rapat finalisasi kontrak FMC-nya. Makasih banyak Pak Rifat.\"",
+      "complaints": [
+        {
+          "complaint_id": "CMP-MCE-01",
+          "category": "Klaim Garansi Servis & Komponen (After-Sales Service Quality)",
+          "unit_model": "Bulldozer D85ESS-2 (2 Unit)",
+          "location": "Site Bengalon, Kalimantan Timur",
+          "severity": "HIGH",
+          "summary": "2 unit Bulldozer D85ESS-2 mengalami low power akibat masalah common rail fuel injector & filter solar 2 minggu pasca-servis, serta persetujuan klaim penggantian injector tertunda.",
+          "verbatim_quote": "ada 2 unit Bulldozer D85ESS-2 kita yang tiba-tiba low power gara-gara common rail fuel injector-nya bermasalah... klaim penggantian injector-nya belum di-acc",
+          "mapped_follow_up": {
+            "responsible_division": "After-Sales Warranty & Service Department",
+            "action_plan": "Setujui langsung (fast-track approval) penggantian fuel injector & filter solar 2 unit D85ESS-2 atas beban garansi servis, serta kirimkan tim mekanik ke Bengalon hari ini.",
+            "target_sla": "Maksimal 1x6 Jam (Penggantian Komponen Hari Ini)",
+            "wa_response_clause": "Memohon maaf atas kendala low power pada 2 unit Bulldozer D85ESS-2 di site Bengalon dan mengonfirmasi bahwa klaim penggantian fuel injector telah disetujui untuk langsung dipasang hari ini."
+          }
+        }
+      ],
+      "demands": [
+        {
+          "demand_id": "DMD-MCE-01",
+          "category": "Perpanjangan Kontrak Servis (Full Maintenance Contract / FMC)",
+          "unit_model": "Seluruh Armada Alat Berat PT MCE",
+          "quantity": "1 Paket Kontrak Q4",
+          "urgency": "MEDIUM",
+          "summary": "Finalisasi PO perpanjangan kontrak Full Maintenance Contract (FMC) Kuartal IV.",
+          "verbatim_quote": "untuk kuartal IV ini kita mau finalisasi PO perpanjangan kontrak Full Maintenance Contract (FMC) armada kita",
+          "mapped_follow_up": {
+            "responsible_division": "Key Account Service Contract Team",
+            "action_plan": "Siapkan draf final addendum SLA & PO perpanjangan FMC Kuartal IV untuk direview bersama Pak Budi Santoso.",
+            "deliverable": "Draf Final Kontrak FMC Q4 + Jadwal Rapat",
+            "wa_response_clause": "Menindaklanjuti komitmen finalisasi PO perpanjangan kontrak maintenance (FMC) Kuartal IV."
+          }
+        },
+        {
+          "demand_id": "DMD-MCE-02",
+          "category": "Pembelian / Pengadaan Unit Baru (Road Maintenance Fleet)",
+          "unit_model": "Motor Grader GD535-5",
+          "quantity": "2 Unit",
+          "urgency": "HIGH",
+          "summary": "Permintaan penawaran 2 unit Motor Grader GD535-5 untuk perawatan jalan tambang (hauling road).",
+          "verbatim_quote": "kita lagi butuh tambahan 2 unit Motor Grader GD535-5 buat merapikan jalan hauling... kabari saya via WA untuk penawaran 2 unit Motor Grader GD535-5",
+          "mapped_follow_up": {
+            "responsible_division": "Heavy Machinery Commercial Sales",
+            "action_plan": "Kirimkan quotation 2 unit Motor Grader GD535-5 (ready stock depo Balikpapan) beserta opsi paket bundling ke dalam kontrak FMC.",
+            "deliverable": "Quotation 2 Unit Motor Grader GD535-5",
+            "wa_response_clause": "Menyampaikan penawaran 2 unit Motor Grader GD535-5 beserta kesiapan unit untuk mendukung perawatan jalan hauling PT Mahakam Coal Energi."
+          }
+        }
+      ],
+      "generated_wa_command": "WA Pak Budi Santoso dari PT Mahakam Coal Energi tentang penanganan komplain injector Bulldozer D85ESS-2, finalisasi PO kontrak maintenance FMC, dan penawaran 2 unit Motor Grader GD535-5"
+    },
+    {
+      "transcript_id": "tr_03_konawe_morowali",
+      "title": "Rekaman Suara Lapangan — Pak Rendi Pratama (PT Konawe Nikel Perkasa)",
+      "audio_source": "Voice Note WhatsApp Lapangan (02:02 menit)",
+      "recorded_at": "2026-10-23T10:30:00+08:00",
+      "speaker_customer": {
+        "contact_id": "c_rendi_p",
+        "name": "Pak Rendi Pratama",
+        "role": "Fleet & Plant Manager",
+        "org_id": "org_konawe",
+        "org_name": "PT Konawe Nikel Perkasa",
+        "city": "Makassar",
+        "timezone": "Asia/Makassar",
+        "phone": "+6281355667788"
+      },
+      "units_mentioned": ["Excavator PC400LC-8", "Excavator PC300-8M0"],
+      "raw_spoken_transcript": "[Suara angin dan alat berat keruk nikel]\n\"Siang Pak Rifat... Saya Rendi Pratama, Plant Manager PT Konawe Nikel Perkasa. Mau lapor kondisi di pit nikel kita nih Pak. Itu unit Excavator kelas 40 ton kita, yang PC400LC-8, undercarriage sama track link-nya udah aus parah padahal baru jalan 1.400 Hour Meter! Harusnya kan garansi komponen sampai 2.000 HM. Tambah lagi jadwal Preventive Maintenance (PM) 1000 HM buat tiga unit kita mundur tiga hari belum dikerjain sama teknisi cabang.\n\nTolong tim after-sales Bapak segera kasih solusi klaim undercarriage PC400LC-8 ini ya. Sama satu lagi Pak, karena target pengapalan bijih nikel bulan depan naik dua kali lipat, direksi minta saya cari tambahan 3 unit Excavator PC300-8M0 lengkap sama attachment hydraulic breaker, plus kita mau sekalian order paket spare part fast-moving (filter & tooth bucket) buat stok 6 bulan. Tolong di-WA ke saya solusinya sama penawaran 3 unit PC300-8M0 itu ya Pak. Ditunggu segera.\"",
+      "complaints": [
+        {
+          "complaint_id": "CMP-KNP-01",
+          "category": "Klaim Garansi Komponen Undercarriage (Premature Wear Warranty)",
+          "unit_model": "Excavator PC400LC-8",
+          "location": "Site Tambang Nikel Konawe/Morowali",
+          "severity": "HIGH",
+          "summary": "Komponen undercarriage & track link Excavator PC400LC-8 mengalami keausan dini pada 1.400 HM (di bawah batas garansi 2.000 HM).",
+          "verbatim_quote": "unit Excavator kelas 40 ton kita, yang PC400LC-8, undercarriage sama track link-nya udah aus parah padahal baru jalan 1.400 Hour Meter",
+          "mapped_follow_up": {
+            "responsible_division": "Product Support & Warranty Claim Sulawesi",
+            "action_plan": "Kirimkan Inspector Undercarriage untuk uji keausan ultrasonik & siapkan penggantian 1 set Track Link Assembly PC400LC-8 melalui skema Pro-Rata Warranty.",
+            "target_sla": "Maksimal 1x24 Jam",
+            "wa_response_clause": "Memohon maaf atas keausan dini komponen undercarriage unit PC400LC-8 serta memprioritaskan klaim garansi penggantian track link."
+          }
+        },
+        {
+          "complaint_id": "CMP-KNP-02",
+          "category": "Keterlambatan Jadwal Servis Berkala (Preventive Maintenance Delay)",
+          "unit_model": "3 Unit Armada Excavator",
+          "location": "Site Konawe",
+          "severity": "MEDIUM",
+          "summary": "Jadwal Preventive Maintenance (PM) 1.000 HM untuk 3 unit mundur 3 hari dari jadwal.",
+          "verbatim_quote": "jadwal Preventive Maintenance (PM) 1000 HM buat tiga unit kita mundur tiga hari belum dikerjain sama teknisi cabang",
+          "mapped_follow_up": {
+            "responsible_division": "Branch Service Coordinator Makassar/Kendari",
+            "action_plan": "Berangkatkan 2 tim Mobile Service Truck malam ini agar eksekusi PM 1.000 HM ke-3 unit selesai seluruhnya besok.",
+            "target_sla": "Besok Pagi Pukul 08:00 WITA",
+            "wa_response_clause": "Memastikan tim Mobile Service segera mengeksekusi Preventive Maintenance 1.000 HM yang sempat tertunda."
+          }
+        }
+      ],
+      "demands": [
+        {
+          "demand_id": "DMD-KNP-01",
+          "category": "Pembelian Unit Baru + Attachment (Heavy Excavator + Breaker)",
+          "unit_model": "Excavator PC300-8M0 + Hydraulic Breaker",
+          "quantity": "3 Unit",
+          "urgency": "HIGH",
+          "summary": "Permintaan penawaran 3 unit Excavator PC300-8M0 lengkap dengan attachment Hydraulic Breaker untuk peningkatan target produksi nikel bulan depan.",
+          "verbatim_quote": "direksi minta saya cari tambahan 3 unit Excavator PC300-8M0 lengkap sama attachment hydraulic breaker",
+          "mapped_follow_up": {
+            "responsible_division": "Mining Equipment Sales Sulawesi",
+            "action_plan": "Susun penawaran harga spesial 3 unit PC300-8M0 + Heavy Duty Hydraulic Breaker dengan jadwal delivery sebelum awal bulan depan.",
+            "deliverable": "Quotation 3 Unit PC300-8M0 + Hydraulic Breaker",
+            "wa_response_clause": "Menyampaikan penawaran 3 unit Excavator PC300-8M0 lengkap dengan attachment Hydraulic Breaker."
+          }
+        },
+        {
+          "demand_id": "DMD-KNP-02",
+          "category": "Kontrak Stok Sparepart (Consignment / Blanket Order Fast-Moving Parts)",
+          "unit_model": "Fast-Moving Parts (Filter & Tooth Bucket)",
+          "quantity": "Paket Stok 6 Bulan",
+          "urgency": "MEDIUM",
+          "summary": "Pemesanan paket spare part fast-moving (filter & tooth bucket) untuk kebutuhan stok site selama 6 bulan.",
+          "verbatim_quote": "sekalian order paket spare part fast-moving (filter & tooth bucket) buat stok 6 bulan",
+          "mapped_follow_up": {
+            "responsible_division": "Parts Sales & Consignment Team",
+            "action_plan": "Buatkan daftar rincian harga (Part Book Quotation) paket stok 6 bulan filter & ground engaging tools (tooth bucket) dengan diskon volume.",
+            "deliverable": "Quotation Paket Sparepart Fast-Moving 6 Bulan",
+            "wa_response_clause": "Menyiapkan rincian paket kontrak spare part fast-moving (filter & tooth bucket) untuk stok 6 bulan di site PT Konawe Nikel Perkasa."
+          }
+        }
+      ],
+      "generated_wa_command": "WA Pak Rendi Pratama dari PT Konawe Nikel Perkasa soal solusi komplain undercarriage PC400LC-8, jadwal PM 1000 HM, dan penawaran 3 unit Excavator PC300-8M0 beserta paket sparepart 6 bulan"
+    },
+    {
+      "transcript_id": "tr_04_kpk_hauling",
+      "title": "Transkrip Rapat Koordinasi Proyek — Pak Surya Dharma (PT Kalimantan Prima Konstruksi)",
+      "audio_source": "Transkrip Rekaman Meeting Zoom / Tatap Muka (03:10 menit)",
+      "recorded_at": "2026-10-23T11:00:00+08:00",
+      "speaker_customer": {
+        "contact_id": "c_surya_d",
+        "name": "Pak Surya Dharma",
+        "role": "GM Operations",
+        "org_id": "org_kpk",
+        "org_name": "PT Kalimantan Prima Konstruksi",
+        "city": "Samarinda",
+        "timezone": "Asia/Makassar",
+        "phone": "+6281299887766"
+      },
+      "units_mentioned": ["Wheel Loader WA380-6", "Compactor Vibratory Roller BW211D"],
+      "raw_spoken_transcript": "[Transkrip Rekaman Suara Rapat Evaluasi Vendor]\n\"Oke Bapak-bapak tim Nusantara Alat Berat, saya Surya Dharma dari PT Kalimantan Prima Konstruksi. Sebelum kita bahas pengadaan proyek jalan tol dan hauling tahun ini, saya mau garis bawahi satu komplain dari tim workshop saya di Samarinda: itu unit Wheel Loader WA380-6 kita kemarin sempat overheat karena radiator core-nya bocor halus, dan waktu kita minta teknisi darurat, respon call center agak lama sampai 4 jam baru diangkat. Untung sekarang udah jalan lagi, tapi tolong sistem respon daruratnya diperbaiki.\n\nKemudian untuk kebutuhan proyek baru kita bulan depan: pertama, sesuai janji tim Bapak waktu pameran kemarin, tolong kirimkan katalog teknis dan jadwal training operator untuk tim kita di Samarinda. Kedua, kita mau minta penawaran harga beli untuk 2 unit Wheel Loader WA380-6 baru dan 3 unit Vibratory Roller Compactor buat pemadatan jalan. Tolong rangkum hasil obrolan kita ini dan kirim via WhatsApp ke nomor saya ya biar bisa langsung saya teruskan ke Direktur Keuangan siang ini.\"",
+      "complaints": [
+        {
+          "complaint_id": "CMP-KPK-01",
+          "category": "Kecepatan Respon Call Center Darurat & Kebocoran Radiator (Emergency Response SLA)",
+          "unit_model": "Wheel Loader WA380-6",
+          "location": "Workshop Samarinda",
+          "severity": "MEDIUM",
+          "summary": "Unit Wheel Loader WA380-6 mengalami overheat akibat kebocoran halus radiator core, serta waktu respon call center darurat memakan waktu 4 jam.",
+          "verbatim_quote": "unit Wheel Loader WA380-6 kita kemarin sempat overheat karena radiator core-nya bocor halus, dan waktu kita minta teknisi darurat, respon call center agak lama sampai 4 jam",
+          "mapped_follow_up": {
+            "responsible_division": "Customer Care & Emergency Hotline Kalimantan",
+            "action_plan": "Tetapkan Dedicated PIC Hotline khusus Key Account PT KPK (respon < 15 menit) & jadwalkan inspeksi lanjutan sistem pendingin (cooling system) WA380-6 tanpa biaya.",
+            "target_sla": "Dedicated PIC Aktif Hari Ini",
+            "wa_response_clause": "Memohon maaf atas keterlambatan respon layanan darurat terkait kendala overheat radiator Wheel Loader WA380-6 serta menunjuk Dedicated Service PIC untuk respon instan ke depannya."
+          }
+        }
+      ],
+      "demands": [
+        {
+          "demand_id": "DMD-KPK-01",
+          "category": "Pemenuhan Komitmen Training Operator & Katalog Teknis",
+          "unit_model": "Program Training Operator Site",
+          "quantity": "1 Batch di Samarinda",
+          "urgency": "MEDIUM",
+          "summary": "Pengiriman katalog teknis dan jadwal pelaksanaan training operator alat berat di Samarinda.",
+          "verbatim_quote": "sesuai janji tim Bapak waktu pameran kemarin, tolong kirimkan katalog teknis dan jadwal training operator untuk tim kita di Samarinda",
+          "mapped_follow_up": {
+            "responsible_division": "Operator Training Center (OTC) Nusantara Alat Berat",
+            "action_plan": "Kirimkan silabus & jadwal resmi Training Operator bersertifikasi di Samarinda beserta katalog teknis lengkap.",
+            "deliverable": "Jadwal Training Operator + Katalog Teknis",
+            "wa_response_clause": "Menindaklanjuti komitmen jadwal pelaksanaan training operator di Samarinda beserta pengiriman katalog teknis."
+          }
+        },
+        {
+          "demand_id": "DMD-KPK-02",
+          "category": "Penawaran Pembelian Paket Alat Berat Konstruksi Jalan",
+          "unit_model": "Wheel Loader WA380-6 (2 Unit) & Vibratory Roller Compactor (3 Unit)",
+          "quantity": "Total 5 Unit",
+          "urgency": "HIGH",
+          "summary": "Permintaan quotation pembelian 2 unit Wheel Loader WA380-6 dan 3 unit Vibratory Roller Compactor untuk proyek jalan bulan depan.",
+          "verbatim_quote": "kita mau minta penawaran harga beli untuk 2 unit Wheel Loader WA380-6 baru dan 3 unit Vibratory Roller Compactor buat pemadatan jalan",
+          "mapped_follow_up": {
+            "responsible_division": "Construction & Road Machinery Sales",
+            "action_plan": "Siapkan paket penawaran komersial (bundling 2 unit WA380-6 + 3 unit Vibratory Roller) beserta opsi pembiayaan leasing korporat untuk Direktur Keuangan PT KPK.",
+            "deliverable": "Quotation Paket 5 Unit Alat Berat Konstruksi",
+            "wa_response_clause": "Menyampaikan penawaran resmi untuk pengadaan 2 unit Wheel Loader WA380-6 dan 3 unit Vibratory Roller Compactor."
+          }
+        }
+      ],
+      "generated_wa_command": "WA Pak Surya Dharma dari PT Kalimantan Prima Konstruksi tentang perbaikan layanan darurat radiator WA380-6, jadwal training operator, dan penawaran 2 unit Wheel Loader WA380-6 serta 3 unit Vibratory Roller"
+    }
+  ]
+}

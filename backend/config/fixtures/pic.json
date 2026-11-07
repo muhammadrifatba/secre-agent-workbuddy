@@ -1,0 +1,136 @@
+[
+  {
+    "contact_id": "c_budi_h",
+    "name": "Budi Hartono",
+    "role": "Head of Procurement",
+    "unit": "Head Office Procurement",
+    "category": "peer",
+    "org_id": "org_internal",
+    "org_name": "PT Nusantara Alat Berat (Internal)",
+    "city": "Jakarta",
+    "timezone": "Asia/Jakarta",
+    "email": "muhammadrifatba2@gmail.com",
+    "phone": "+6281227676794",
+    "channel_pref": "email",
+    "register": "formal_bapak",
+    "personalization_level": "timing_only",
+    "leave_status": "active",
+    "provenance": {
+      "email": "directory",
+      "phone": "directory",
+      "timezone": "directory"
+    }
+  },
+  {
+    "contact_id": "c_budi_s",
+    "name": "Budi Santoso",
+    "role": "VP Operations",
+    "unit": "Kalimantan Mining Support",
+    "category": "customer",
+    "org_id": "org_mahakam",
+    "org_name": "PT Mahakam Coal Energi",
+    "city": "Balikpapan",
+    "timezone": "Asia/Makassar",
+    "email": "muhammadrifatba2@gmail.com",
+    "phone": "+6281227676794",
+    "channel_pref": "email",
+    "register": "formal_bapak",
+    "personalization_level": "full",
+    "leave_status": "active",
+    "provenance": {
+      "email": "crm",
+      "phone": "crm",
+      "timezone": "crm"
+    }
+  },
+  {
+    "contact_id": "c_yohanes_w",
+    "name": "Yohanes Wenda",
+    "role": "Site Manager Papua",
+    "unit": "Eastern Operations Division",
+    "category": "peer",
+    "org_id": "org_internal",
+    "org_name": "PT Nusantara Alat Berat (Internal)",
+    "city": "Jayapura",
+    "timezone": "Asia/Jayapura",
+    "email": "muhammadrifatba2@gmail.com",
+    "phone": "+6281227676794",
+    "channel_pref": "email",
+    "register": "formal_bapak",
+    "personalization_level": "timing_only",
+    "leave_status": "active",
+    "sensitive_private_notes_DO_NOT_LOAD_FOR_PEER": "Sedang mengajukan cuti keluarga bulan depan dan diskusi bonus tahunan.",
+    "provenance": {
+      "email": "directory",
+      "phone": "directory",
+      "timezone": "directory"
+    }
+  },
+  {
+    "contact_id": "c_siti_r",
+    "name": "Siti Rahmawati",
+    "role": "Finance Controller",
+    "unit": "Corporate Finance",
+    "category": "peer",
+    "org_id": "org_internal",
+    "org_name": "PT Nusantara Alat Berat (Internal)",
+    "city": "Jakarta",
+    "timezone": "Asia/Jakarta",
+    "email": "muhammadrifatba2@gmail.com",
+    "phone": "+6281227676794",
+    "channel_pref": "whatsapp",
+    "register": "formal_ibu",
+    "personalization_level": "timing_only",
+    "leave_status": "active",
+    "provenance": {
+      "email": "directory",
+      "phone": "directory",
+      "timezone": "directory"
+    }
+  },
+  {
+    "contact_id": "c_rendi_p",
+    "name": "Rendi Pratama",
+    "role": "Fleet & Plant Manager",
+    "unit": "Nickel Mining Operations",
+    "category": "customer",
+    "org_id": "org_konawe",
+    "org_name": "PT Konawe Nikel Perkasa",
+    "city": "Makassar",
+    "timezone": "Asia/Makassar",
+    "email": "muhammadrifatba2@gmail.com",
+    "phone": "+6281227676794",
+    "channel_pref": "whatsapp",
+    "register": "formal_bapak",
+    "personalization_level": "full",
+    "leave_status": "active",
+    "provenance": {
+      "email": "crm",
+      "phone": "crm",
+      "timezone": "crm"
+    }
+  },
+  {
+    "contact_id": "c_surya_d",
+    "name": "Surya Dharma",
+    "role": "GM Operations",
+    "unit": "Heavy Road & Hauling Construction",
+    "category": "customer",
+    "org_id": "org_kpk",
+    "org_name": "PT Kalimantan Prima Konstruksi",
+    "city": "Samarinda",
+    "timezone": "Asia/Makassar",
+    "email": "muhammadrifatba2@gmail.com",
+    "phone": "+6281227676794",
+    "channel_pref": "whatsapp",
+    "register": "formal_bapak",
+    "personalization_level": "full",
+    "leave_status": "active",
+    "provenance": {
+      "email": "crm",
+      "phone": "crm",
+      "timezone": "crm"
+    }
+  }
+]
+

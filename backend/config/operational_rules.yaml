@@ -1,0 +1,73 @@
+work_hours:
+  start: "08:00"
+  end: "17:00"
+
+ramadan:
+  enabled: false
+  start: "08:00"
+  end: "15:00"
+
+friday_prayer_block:
+  day_of_week: 4  # Friday (Monday = 0)
+  start: "11:30"
+  end: "13:00"
+  proposed_alternatives:
+    - "10:00"
+    - "13:30"
+    - "14:00"
+    - "15:00"
+
+city_timezone:
+  Jakarta: "Asia/Jakarta"
+  Bandung: "Asia/Jakarta"
+  Surabaya: "Asia/Jakarta"
+  Medan: "Asia/Jakarta"
+  Semarang: "Asia/Jakarta"
+  Palembang: "Asia/Jakarta"
+  Balikpapan: "Asia/Makassar"
+  Samarinda: "Asia/Makassar"
+  Banjarmasin: "Asia/Makassar"
+  Makassar: "Asia/Makassar"
+  Denpasar: "Asia/Makassar"
+  Manado: "Asia/Makassar"
+  Jayapura: "Asia/Jayapura"
+  Sorong: "Asia/Jayapura"
+  Timika: "Asia/Jayapura"
+  Ambon: "Asia/Jayapura"
+
+timezone_labels:
+  "Asia/Jakarta": "WIB"
+  "Asia/Makassar": "WITA"
+  "Asia/Jayapura": "WIT"
+
+time_expressions:
+  "pagi": ["08:30", "10:30"]
+  "siang": ["11:00", "14:00"]
+  "jumat siang": ["11:30", "14:00"]
+  "habis zuhur": ["12:30", "14:00"]
+  "setelah zuhur": ["12:30", "14:00"]
+  "habis jumatan": ["13:15", "14:30"]
+  "sore": ["15:00", "17:00"]
+
+outside_hours_policy:
+  email: "schedule_next_workday_0800"
+  whatsapp: "owner_reminder_next_workday_0800"
+  crm: "immediate"
+
+national_holidays_2026:
+  - "2026-01-01"
+  - "2026-02-17"
+  - "2026-03-19"
+  - "2026-03-20"
+  - "2026-03-21"
+  - "2026-04-03"
+  - "2026-05-01"
+  - "2026-05-14"
+  - "2026-05-27"
+  - "2026-05-31"
+  - "2026-06-01"
+  - "2026-06-16"
+  - "2026-08-17"
+  - "2026-08-25"
+  - "2026-12-25"
+

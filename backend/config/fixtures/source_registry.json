@@ -1,0 +1,61 @@
+{
+  "trusted_owners": [
+    {
+      "owner_id": "owner_rifat",
+      "name": "Muhammad Rifat",
+      "email": "muhammadrifatba@gmail.com",
+      "phone": "+6281227676794",
+      "allowed_channels": [
+        "workbuddy_app",
+        "web_console",
+        "voice_note_verified",
+        "verified_owner_email",
+        "n8n_verified_webhook"
+      ]
+    },
+    {
+      "owner_id": "owner_andi",
+      "name": "Andi Pratama (VP Commercial)",
+      "email": "andi.pratama@nusantara-ab.co.id",
+      "phone": "+6281227676794",
+      "allowed_channels": [
+        "workbuddy_app",
+        "web_console",
+        "voice_note_verified",
+        "verified_owner_email",
+        "n8n_verified_webhook"
+      ]
+    },
+    {
+      "owner_id": "default_owner",
+      "name": "Executive Owner",
+      "email": "owner@nusantara-ab.co.id",
+      "phone": "+6281227676794",
+      "allowed_channels": [
+        "workbuddy_app",
+        "web_console",
+        "voice_note_verified",
+        "verified_owner_email",
+        "n8n_verified_webhook"
+      ]
+    }
+  ],
+  "allowed_uploaders": [
+    "owner_rifat",
+    "rifat",
+    "muhammad rifat",
+    "muhammadrifatba@gmail.com",
+    "owner_andi",
+    "default_owner",
+    "andi.pratama@nusantara-ab.co.id",
+    "owner@nusantara-ab.co.id",
+    "n8n_meeting_bot_verified"
+  ],
+  "blocked_patterns": [
+    "unknown@",
+    "spoofed@",
+    "external-attacker@",
+    "unregistered_webhook"
+  ]
+}
+
